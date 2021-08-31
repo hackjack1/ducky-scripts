@@ -2,19 +2,16 @@ DELAY 1000
 GUI r 
 DELAY 100
 STRING cmd 
+ENTER
 DELAY 100
 STRING color 2 
 DELAY 100
 ENTER 
-STRING @echo off 
+STRING  cd c:\
 ENTER
-color 2
+STRING  :y
 ENTER
-cd c:\
+STRING  tree 
 ENTER
-:y 
-ENTER
-tree 
-ENTER
-goto y
+STRING  goto y
 ENTER
