@@ -1,0 +1,5 @@
+DEALY 1000
+GUI r 
+STRING www.google.com
+DELAY 100
+ENTER
