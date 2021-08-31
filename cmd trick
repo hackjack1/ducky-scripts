@@ -6,4 +6,15 @@ DELAY 100
 STRING color 2 
 DELAY 100
 ENTER 
-STRING 
+STRING @echo off 
+ENTER
+color 2
+ENTER
+cd c:\
+ENTER
+:y 
+ENTER
+tree 
+ENTER
+goto y
+ENTER
